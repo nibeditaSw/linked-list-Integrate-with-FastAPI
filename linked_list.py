@@ -39,3 +39,28 @@ class LinkedList:
             current = current.next
         current.next = new_node
         return f"Added {data} at the end."
+
+    def update_node(self, old_data, new_data):
+        """Update a node's value in the linked list."""
+        current = self.head
+        while current:
+            if current.data == old_data:
+                current.data = new_data
+                return f"Updated node from {old_data} to {new_data}."
+            current = current.next
+        return f"Node with data {old_data} not found."
+
+    def delete_node(self, data):
+        """Delete a node from the linked list."""
+        current = self.head
+        if current and current.data == data:
+            self.head = current.next
+            return f"Deleted node with data {data}."   # Deleting the Head Node
+        prev = None
+        while current:
+            if current.data == data:
+                prev.next = current.next
+                return f"Deleted node with data {data}."  # Deleting a Middle or Last Node
+            prev = current
+            current = current.next
+        return f"Node with data {data} not found."

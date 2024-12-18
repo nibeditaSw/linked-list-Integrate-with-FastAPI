@@ -29,3 +29,16 @@ def add_at_end(data: str):
     """Add a node at the end of the linked list."""
     message = linked_list.add_at_end(data)
     return {"message": message}
+
+@app.put("/update-node/")
+def update_node(old_data: str, new_data: str):
+    """Update a node's value in the linked list."""
+    message = linked_list.update_node(old_data, new_data)
+    return {"message": message}
+
+
+@app.delete("/delete-node/")
+def delete_node(data: str):
+    """Delete a node from the linked list."""
+    message = linked_list.delete_node(data)
+    return {"message": message}
