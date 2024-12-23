@@ -2,6 +2,12 @@ class Node:
     """Class representing a node in the linked list."""
 
     def __init__(self, data):
+        """
+        Constructor to initialize the node object.
+
+        Parameters:
+            data (any): The data to be stored in the node.
+        """
         self.data = data
         self.next = None
 
