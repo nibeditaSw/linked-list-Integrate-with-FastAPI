@@ -70,3 +70,25 @@ class LinkedList:
             prev = current
             current = current.next
         return f"Node with data {data} not found."
+
+
+    def get_last_node(self):
+        """Retrieve the last node's data from the linked list."""
+        if self.head is None:
+            return None
+        
+        current = self.head
+        while current.next:
+            current = current.next
+        return current.data
+    
+    
+    def get_reversed_data(self):
+        """Retrieve the data from the linked list in reversed order without modifying the list."""
+        data_list = []
+        current = self.head
+        while current:
+            data_list.append(current.data)
+            current = current.next
+        return data_list[::-1]  
+    
