@@ -1,0 +1,22 @@
+2024-12-23 18:42:46,067 | ERROR | Data is null. Cannot add node at the beginning.
+NoneType: None
+2024-12-23 18:45:49,291 | ERROR | Data is null. Cannot add node at the beginning.
+NoneType: None
+23-Dec-24 18:47:39 | ERROR | Data is null. Cannot add node at the beginning.
+NoneType: None
+23-Dec-24 18:49:27 | ERROR | Data is null. Cannot delete node.
+NoneType: None
+24-Dec-24 17:58:24 | INFO | Root endpoint accessed.
+24-Dec-24 17:59:06 | INFO | Retrieved linked list data: []
+24-Dec-24 17:59:40 | ERROR | Data is null. Cannot add node at the beginning.
+24-Dec-24 18:01:06 | ERROR | Data is null. Cannot add node at the beginning.
+NoneType: None
+24-Dec-24 18:01:22 | INFO | Successfully added 54 at the beginning of the linked list.
+24-Dec-24 18:02:07 | ERROR | Data is null. Cannot add node at the end.
+NoneType: None
+24-Dec-24 18:02:19 | INFO | Successfully added frh at the end of the linked list.
+24-Dec-24 18:02:52 | ERROR | Old data or new data is null. Cannot update node.
+NoneType: None
+24-Dec-24 18:03:37 | ERROR | Old data or new data is null. Cannot update node.
+NoneType: None
+24-Dec-24 18:03:52 | INFO | Successfully updated node from frh to Nibi.
